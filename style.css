@@ -27,9 +27,9 @@ header{
 .product{
     text-align: center ;
     background: #fff;
-    margin: 10px 0;
     max-width: 250px;
     min-width: none;
+    margin: 10px 0;
     padding :10px 0;
     border-radius: 20px;
     border: 1px solid #ddd;
