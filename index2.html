@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0/min.js"></script>
+    <script>
+        
+        $(document).ready(function(){
+            $('#strtbtn').on('click',function(){
+                animation = $('#mydiv').stop().animate({width: '400px'},1000);
+            });
+            $('#stpbtn').on('click',function(){
+                $('#mydiv').stop();
+            })
+        });
+    </script>
+    <style>
+        #mydiv{
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+        }
+        #strtbtn{
+            border-radius: 15px;
+        }
+        #stpbtn{
+            border-radius: 15px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="mydiv"></div>
+    <button id="strtbtn">start</button>
+    <button id="stpbtn">stop</button>
+</body>
+
+</html>

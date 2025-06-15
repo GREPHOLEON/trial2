@@ -1,0 +1,30 @@
+body{
+    background-color: gold;
+    margin: 20%;
+    border-radius: 15px;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+}
+.container{
+    width: 100% ;
+    margin:auto;
+    overflow: hidden;
+}
+#main{
+    display : flex;
+    flex-wrap :wrap
+
+}
+.container, .video-section{
+    background-color: whitesmoke;
+    box-sizing: border;
+    flex: calc(33.333%-40px);
+
+}
+.heading{
+    color: azure;
+    padding: 5% ;
+    margin: auto;
+    text-align: center;
+}
